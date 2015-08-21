@@ -16,9 +16,9 @@ MaterialAccount account;
         account = new MaterialAccount(this.getResources(), "User Name",null,null,null);
         this.addAccount(account);
         ManifestoFragment sampleClassFragment = new ManifestoFragment();
-        this.addSection(newSection("Aam Aadmi Party",R.mipmap.ic_aap , sampleClassFragment));
-        this.addSection(newSection("Bhartiya Janta Party", R.mipmap.ic_bjp, sampleClassFragment));
-        this.addSection(newSection("Congress", R.mipmap.ic_congress, sampleClassFragment));
+        this.addSection(newSection("Aam Aadmi Party",R.drawable.ic_aap , sampleClassFragment));
+        this.addSection(newSection("Bhartiya Janta Party", R.drawable.ic_bjp, sampleClassFragment));
+        this.addSection(newSection("Congress", R.drawable.ic_congress, sampleClassFragment));
     }
 
 

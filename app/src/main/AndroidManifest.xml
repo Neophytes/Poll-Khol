@@ -9,6 +9,20 @@
         android:icon="@mipmap/ic_launcherpk"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        //Splash Screen
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -19,6 +33,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Intent Filter - Twitter -->
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="oauth" android:host="t4jsample"/>
+        </intent-filter>
+
     </application>
+
+    <!-- Permission - Internet Connect -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
