@@ -2,27 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-bcdb42b8670bc113d50a75c8b233fe73a63d6d67.jar" />
-    </item>
-    <item
-        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-9006ffaedec3a0dd9a9d7196cfbf1376666a0e46.jar" />
-    </item>
-    <item
-        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="aba9317bc403d69d8a571c0a72acfe95698a5db0">
-        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-616cfec8aa6c9d80289f21bf0d9d94311e534330.jar" />
-    </item>
-    <item
         jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -30,18 +9,11 @@
         <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-9a6627dddd1d7e6aacf72775a42e6aa76c6b0bdb.jar" />
     </item>
     <item
-        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/it.neokree/MaterialNavigationDrawer/1.3.3/jars/classes.jar"
+        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="0640bc34b0f25196f82fe1e707a437bd4a405933">
-        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-a48e2eaaa055c65edc165d8a31b9e01d15c9041c.jar" />
-    </item>
-    <item
-        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-171080f10ddc0b4f7fd76b9a17919d2c3ef804f2.jar" />
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-9006ffaedec3a0dd9a9d7196cfbf1376666a0e46.jar" />
     </item>
     <item
         jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
@@ -56,6 +28,41 @@
         revision="23.0.0"
         sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
         <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-e2335d57d070c6a28d25166dd475c54f7dc56674.jar" />
+    </item>
+    <item
+        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-bcdb42b8670bc113d50a75c8b233fe73a63d6d67.jar" />
+    </item>
+    <item
+        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/it.neokree/MaterialNavigationDrawer/1.3.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0640bc34b0f25196f82fe1e707a437bd4a405933">
+        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-a48e2eaaa055c65edc165d8a31b9e01d15c9041c.jar" />
+    </item>
+    <item
+        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="aba9317bc403d69d8a571c0a72acfe95698a5db0">
+        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-616cfec8aa6c9d80289f21bf0d9d94311e534330.jar" />
+    </item>
+    <item
+        jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/classes-171080f10ddc0b4f7fd76b9a17919d2c3ef804f2.jar" />
+    </item>
+    <item
+        jar="/home/jigyasa/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-core/4.0.2/6555e7c45f5db0006823731b2ddb536d481e11d1/twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6555e7c45f5db0006823731b2ddb536d481e11d1">
+        <dex dex="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-89c192f780e81a1232b596c53191082bbc181944.jar" />
     </item>
     <item
         jar="/home/jigyasa/Desktop/Poll-Khol/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/jars/classes.jar"
