@@ -13,12 +13,12 @@ public class MainActivity extends MaterialNavigationDrawer {
 MaterialAccount account;
     @Override
     public void init(Bundle savedInstanceState) {
-        account = new MaterialAccount(this.getResources(), "Chhavi",null,null,null);
+        account = new MaterialAccount(this.getResources(), "User Name",null,null,null);
         this.addAccount(account);
         ManifestoFragment sampleClassFragment = new ManifestoFragment();
-        this.addSection(newSection("AAP", R.drawable.abc_btn_switch_to_on_mtrl_00001, sampleClassFragment));
-        this.addSection(newSection("BJP", R.drawable.abc_btn_switch_to_on_mtrl_00001, sampleClassFragment));
-        this.addSection(newSection("CONGRESS", R.drawable.abc_btn_switch_to_on_mtrl_00001, sampleClassFragment));
+        this.addSection(newSection("Aam Aadmi Party",R.mipmap.ic_aap , sampleClassFragment));
+        this.addSection(newSection("Bhartiya Janta Party", R.mipmap.ic_bjp, sampleClassFragment));
+        this.addSection(newSection("Congress", R.mipmap.ic_congress, sampleClassFragment));
     }
 
 
