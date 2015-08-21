@@ -27,7 +27,6 @@ public class SplashScreen extends Activity {
         justSpecial.setVisibility(View.VISIBLE);
         justSpecial.setAnimation(scaleAnim1);
 
-
         final SplashScreen sPlashScreen = this;
 
         // The thread to wait for splash screen events
@@ -48,7 +47,7 @@ public class SplashScreen extends Activity {
 
                 // Run next activity
                 Intent intent = new Intent();
-                intent.setClass(sPlashScreen, MainActivity.class);
+                intent.setClass(sPlashScreen, MyLogIn.class);
                 startActivity(intent);
                 //    stop();
             }

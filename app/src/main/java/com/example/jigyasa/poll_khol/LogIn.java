@@ -42,7 +42,7 @@ public class LogIn extends Activity {
     static final String PREF_KEY_OAUTH_SECRET = "oauth_token_secret";
     static final String PREF_KEY_TWITTER_LOGIN = "isTwitterLogedIn";
 
-    static final String TWITTER_CALLBACK_URL = "oauth://t4jsample";
+    static final String TWITTER_CALLBACK_URL = "";
 
     // Twitter oauth urls
     static final String URL_TWITTER_AUTH = "auth_url";
@@ -197,17 +197,20 @@ public class LogIn extends Activity {
             twitter = factory.getInstance();
 
             try {
-                requestToken = twitter
-                        .getOAuthRequestToken(TWITTER_CALLBACK_URL);
-                this.startActivity(new Intent(Intent.ACTION_VIEW, Uri
-                        .parse(requestToken.getAuthenticationURL())));
-            } catch (TwitterException e) {
+                requestToken = twitter.getOAuthRequestToken(TWITTER_CALLBACK_URL);
+                this.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(requestToken.getAuthenticationURL())));
+            }
+            catch (TwitterException e)
+            {
                 e.printStackTrace();
             }
+
         } else {
             // user already logged into twitter
             Toast.makeText(getApplicationContext(),
                     "Already Logged into twitter", Toast.LENGTH_LONG).show();
+            Intent i = new Intent(LogIn.this,MainActivity.class);
+            startActivity(i);
         }
     }
 
